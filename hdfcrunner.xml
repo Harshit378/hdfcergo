@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HDFC Ergo">
+    <parameter name="browser" value="Chrome"></parameter>
+    <test name="POP-UP : Chrome" preserve-order="true" enabled="true">
+        <classes>
+            <class name="util.AutomationDriver"></class>
+            <class name="tests.HDFCErgoTest"></class>
+        </classes>
+    </test>
+</suite>
